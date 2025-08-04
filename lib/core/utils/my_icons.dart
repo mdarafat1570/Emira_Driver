@@ -1,0 +1,44 @@
+class MyIcons {
+  static const String moto = "assets/icon/moto.svg";
+  static const String star = "assets/icon/star.svg";
+  static const String car = "assets/icon/car.svg";
+  static const String doc = "assets/icon/doc.svg";
+  static const String xlsx = "assets/icons/xlsx.svg";
+  static const String pdfFile = "assets/icon/pdf.svg";
+  static const String intercityCar = "assets/icon/intercityCar.svg";
+  static const String parcel = "assets/icon/parcel.svg";
+  static const String mapYellow = "assets/icon/mapYellow.svg";
+  static const String mapRed = "assets/icon/mapRed.svg";
+  static const String box = "assets/icon/box.svg";
+  static const String bag = "assets/icon/bag.svg";
+  static const String suv = "assets/icon/suv.svg";
+  static const String copy = "assets/icon/copy.svg";
+  static const String avatar = "assets/icon/avatar.svg";
+  static const String tickMark = "assets/icon/mark_tick.svg";
+  static const String coin = "assets/icon/coin.svg";
+  static const String colorCoin = "assets/icon/color_coin.svg";
+  static const String sendArrow = "assets/icon/send_arrow.svg";
+  static const String mapMarkerIcon = "assets/icon/map_marker.png";
+  static const String carMarkerIcon = "assets/icon/ic_marker_car.png";
+  static const String callIcon = "assets/icon/call.svg";
+  static const String messageIcon = "assets/icon/message.svg";
+  static const String noDataFound = "assets/icon/no_ride_icon.svg";
+  //Nav OR MENU Icon
+  static const String city = "assets/icon/city_nav.svg";
+  static const String intercity = "assets/icon/intercity_nav.svg";
+  static const String riders = "assets/icon/ride_nav.svg";
+  static const String wallet = "assets/icon/wallet_nav.svg";
+  static const String settings = "assets/icon/settings_nav.svg";
+  static const String referral = "assets/icon/referral_nav.svg";
+  static const String inbox = "assets/icon/inbox_nav.svg";
+  static const String profile = "assets/icon/profile_nav.svg";
+  static const String verify = "assets/icon/verify.svg";
+  static const String logout = "assets/icon/logout_nav.svg";
+  static const String delete = "assets/icon/delete.svg";
+  static const String theme = "assets/icon/theme.png";
+  static const String phone = "assets/icon/phone.svg";
+  static const String google = "assets/icon/google.svg";
+  static const String password = "assets/img/icon/password.svg";
+  static const String bg = "assets/img/icon/bg.svg";
+  static const String user = "assets/img/icon/User.svg";
+}
