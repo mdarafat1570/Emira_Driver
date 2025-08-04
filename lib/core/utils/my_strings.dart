@@ -2,7 +2,7 @@ import 'package:ovoride_driver/data/model/language/language_model.dart';
 
 class MyStrings {
   //APP Name
-  static const String appName = "OvoRide Driver";
+  static const String appName = "Emira Driver";
 
   static const String onboardTitle1 = "Drive Your Way to Success"; //Title 1
 

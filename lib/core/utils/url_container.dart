@@ -1,5 +1,5 @@
 class UrlContainer {
-  static const String domainUrl = 'https://preview.ovosolution.com/ovoride/demo'; //YOUR WEBSITE DOMAIN URL HERE
+  static const String domainUrl = 'https://emiraride.com';
 
   static const String baseUrl = '$domainUrl/api/';
 

@@ -222,6 +222,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 RoundedButton(
                                   isLoading: controller.isSubmitLoading,
                                   text: MyStrings.signIn.tr,
+                                  color: MyColor.primaryColor,
                                   press: () {
                                     if (formKey.currentState!.validate()) {
                                       controller.loginUser();
