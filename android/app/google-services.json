@@ -1,56 +1,48 @@
 {
   "project_info": {
-    "project_number": "1037368853288",
-    "project_id": "ovo-ride",
-    "storage_bucket": "ovo-ride.firebasestorage.app"
+    "project_number": "965320825406",
+    "project_id": "emiraride-4ee4d",
+    "storage_bucket": "emiraride-4ee4d.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1037368853288:android:bd6da7aaab62513ba0461d",
+        "mobilesdk_app_id": "1:965320825406:android:bbbaf94d1de1e1421ecf6f",
         "android_client_info": {
-          "package_name": "com.ovosolution.ovoridedriver"
+          "package_name": "com.inferloom.emiradriver"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1037368853288-5cfp9jgdnhq33c50on961jf16tg8ke8o.apps.googleusercontent.com",
+          "client_id": "965320825406-8hb5b1q2jl19lq8l64bt8253kb2ugt4f.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.ovosolution.ovoridedriver",
-            "certificate_hash": "b136159e2d15ade4750b074c4cf45ea6f715b188"
+            "package_name": "com.inferloom.emiradriver",
+            "certificate_hash": "5546adf7a18a3dbd041a4fedddd6476f505fb17b"
           }
         },
         {
-          "client_id": "1037368853288-ksaapr7i8mf2m0nq05vsii2evcpkrkdl.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.ovosolution.ovoridedriver",
-            "certificate_hash": "e0eb88d4bbf2ce6a5b31d9ea3097f1aaff108b87"
-          }
-        },
-        {
-          "client_id": "1037368853288-f5dc6qk3tsic4kqj5kfj86lq1tj4acph.apps.googleusercontent.com",
+          "client_id": "965320825406-hcari4cu948eoobd2sgdsbl85m718unv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB1lEgwpLYjob5mb3mdLhvSYHnlfNFzPyw"
+          "current_key": "AIzaSyBXffbNxCxmhztZGvc9plHKw92bjbOGgGI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1037368853288-f5dc6qk3tsic4kqj5kfj86lq1tj4acph.apps.googleusercontent.com",
+              "client_id": "965320825406-hcari4cu948eoobd2sgdsbl85m718unv.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "1037368853288-m5sd6u7i1euq16eojtdken8g3jrouru3.apps.googleusercontent.com",
+              "client_id": "965320825406-62fda9g9vh4crqp1ls15ufg47is7tkgs.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.ovosolution.ovoridedriver"
+                "bundle_id": "com.inferloom.emirarider"
               }
             }
           ]
@@ -59,50 +51,34 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1037368853288:android:a1bcaa90d6ff883aa0461d",
+        "mobilesdk_app_id": "1:965320825406:android:fbdf4b32a0f5cf1a1ecf6f",
         "android_client_info": {
-          "package_name": "com.ovosolution.ovorideuser"
+          "package_name": "com.inferloom.emirarider"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1037368853288-52v19o4a590lmsfvqbh12iks1jf55727.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.ovosolution.ovorideuser",
-            "certificate_hash": "b136159e2d15ade4750b074c4cf45ea6f715b188"
-          }
-        },
-        {
-          "client_id": "1037368853288-t7rc414sor3kd2je8adl5gb5dj1c5or5.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.ovosolution.ovorideuser",
-            "certificate_hash": "e0eb88d4bbf2ce6a5b31d9ea3097f1aaff108b87"
-          }
-        },
-        {
-          "client_id": "1037368853288-f5dc6qk3tsic4kqj5kfj86lq1tj4acph.apps.googleusercontent.com",
+          "client_id": "965320825406-hcari4cu948eoobd2sgdsbl85m718unv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB1lEgwpLYjob5mb3mdLhvSYHnlfNFzPyw"
+          "current_key": "AIzaSyBXffbNxCxmhztZGvc9plHKw92bjbOGgGI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1037368853288-f5dc6qk3tsic4kqj5kfj86lq1tj4acph.apps.googleusercontent.com",
+              "client_id": "965320825406-hcari4cu948eoobd2sgdsbl85m718unv.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "1037368853288-m5sd6u7i1euq16eojtdken8g3jrouru3.apps.googleusercontent.com",
+              "client_id": "965320825406-62fda9g9vh4crqp1ls15ufg47is7tkgs.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.ovosolution.ovoridedriver"
+                "bundle_id": "com.inferloom.emirarider"
               }
             }
           ]

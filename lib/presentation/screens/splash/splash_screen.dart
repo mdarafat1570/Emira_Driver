@@ -42,9 +42,9 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return GetBuilder<SplashController>(
       builder: (controller) => AnnotatedRegion<SystemUiOverlayStyle>(
-        value: const SystemUiOverlayStyle(statusBarColor: MyColor.primaryColor, statusBarBrightness: Brightness.dark, statusBarIconBrightness: Brightness.light),
+        value: const SystemUiOverlayStyle(statusBarColor: MyColor.colorWhite, statusBarBrightness: Brightness.dark, statusBarIconBrightness: Brightness.light),
         child: Scaffold(
-          backgroundColor: controller.noInternet ? MyColor.colorWhite : MyColor.primaryColor,
+          backgroundColor: controller.noInternet ? MyColor.colorWhite : MyColor.colorWhite,
           body: controller.noInternet
               ? NoDataOrInternetScreen(
                   isNoInternet: true,

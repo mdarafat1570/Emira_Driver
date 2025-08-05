@@ -26,21 +26,22 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB1lEgwpLYjob5mb3mdLhvSYHnlfNFzPyw',
-    appId: '1:1037368853288:android:bd6da7aaab62513ba0461d',
-    messagingSenderId: '1037368853288',
-    projectId: 'ovo-ride',
-    storageBucket: 'ovo-ride.firebasestorage.app',
+    apiKey: 'AIzaSyBXffbNxCxmhztZGvc9plHKw92bjbOGgGI',
+    appId: '1:965320825406:android:bbbaf94d1de1e1421ecf6f',
+    messagingSenderId: '965320825406',
+    projectId: 'emiraride-4ee4d',
+    storageBucket: 'emiraride-4ee4d.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDCVz9PMd_PNqURCD2DJhdrvSdMJxT1Jcg',
-    appId: '1:1037368853288:ios:2a69320170c285ada0461d',
-    messagingSenderId: '1037368853288',
-    projectId: 'ovo-ride',
-    storageBucket: 'ovo-ride.firebasestorage.app',
-    androidClientId: '1037368853288-52v19o4a590lmsfvqbh12iks1jf55727.apps.googleusercontent.com',
-    iosClientId: '1037368853288-m5sd6u7i1euq16eojtdken8g3jrouru3.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAW7IuhHma-RyQqeUqzkOgENONIY4AAaf8',
+    appId: '1:965320825406:ios:cedff9f060ec4cea1ecf6f',
+    messagingSenderId: '965320825406',
+    projectId: 'emiraride-4ee4d',
+    storageBucket: 'emiraride-4ee4d.firebasestorage.app',
+    androidClientId: '965320825406-8hb5b1q2jl19lq8l64bt8253kb2ugt4f.apps.googleusercontent.com',
+    iosClientId: '965320825406-nos0nlcsrjp6i2mof0pksum3vd6j9csc.apps.googleusercontent.com',
     iosBundleId: 'com.ovosolution.ovoridedriver',
   );
+
 }

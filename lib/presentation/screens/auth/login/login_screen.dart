@@ -95,7 +95,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     Align(
                       alignment: Alignment.center,
                       child: SvgPicture.asset(
-                        MyIcons.bg,
+                        MyImages.appLogoIcon,
                         width: double.infinity,
                         fit: BoxFit.contain,
                         height: 200,
