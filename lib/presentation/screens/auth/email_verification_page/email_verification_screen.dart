@@ -60,11 +60,6 @@ class _EmailVerificationScreenState extends State<EmailVerificationScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          spaceDown(Dimensions.space15),
-                          Image.asset(
-                            MyImages.appLogoWhite,
-                            width: MediaQuery.of(context).size.width / 3,
-                          ),
                           Align(
                             alignment: Alignment.center,
                             child: SvgPicture.asset(
