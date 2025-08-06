@@ -4,15 +4,15 @@ class MyStrings {
   //APP Name
   static const String appName = "Emira Driver";
 
-  static const String onboardTitle1 = "Drive Your Way to Success"; //Title 1
+  static const String onboardTitle1 = "Emira Driver Your Way to Success"; //Title 1
 
   static const String onboardDescription1 = "Turn your car into a revenue-generating machine & Set your own schedule and earn on your terms. Join our network ";
 
-  static const String onboardTitle2 = "Drive, Earn, Thrive"; //Title 2
+  static const String onboardTitle2 = "Emira Driver, Earn, Thrive"; //Title 2
 
   static const String onboardDescription2 = "From daily rides to long-distance trips, you choose how you earn. The road to financial independence starts here";
 
-  static const String onboardTitle3 = "Join the Driving Force"; //Title 3
+  static const String onboardTitle3 = "Join the Emira Drivering Force"; //Title 3
 
   static const String onboardDescription3 = "Become part of a trusted network of drivers. Together, we’re shaping the future of ride-sharing and watch your income grow"; //Des 3
   //Onboard End

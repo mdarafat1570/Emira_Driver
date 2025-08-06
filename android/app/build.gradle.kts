@@ -7,12 +7,23 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin") // Flutter plugin must come last
 }
 
-// Load keystore properties
+// Load keystore.properties
 val keystorePropertiesFile = rootProject.file("keystore.properties")
 val keystoreProperties = Properties()
 if (keystorePropertiesFile.exists()) {
     keystoreProperties.load(keystorePropertiesFile.inputStream())
 }
+
+// Load Flutter version info from local.properties
+val localProps = Properties().apply {
+    val file = rootProject.file("local.properties")
+    if (file.exists()) {
+        load(file.inputStream())
+    }
+}
+
+val versionCodeProp = localProps.getProperty("flutter.versionCode") ?: "1"
+val versionNameProp = localProps.getProperty("flutter.versionName") ?: "1.0.0"
 
 android {
     namespace = "com.inferloom.emiradriver"
@@ -26,15 +37,16 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_11.toString()
+        jvmTarget = "11"
     }
 
     defaultConfig {
         applicationId = "com.inferloom.emiradriver"
         minSdk = 21
         targetSdk = 36
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        versionCode = versionCodeProp.toInt()
+        versionName = versionNameProp
+        multiDexEnabled = true
     }
 
     signingConfigs {
@@ -44,28 +56,23 @@ android {
             keyAlias = keystoreProperties["keyAlias"] as String
             keyPassword = keystoreProperties["keyPassword"] as String
         }
-
-        // Remove this block if you want to use default debug keystore
-        // getByName("debug") {
-        //     storeFile = file(keystoreProperties["storeFile"] as String)
-        //     storePassword = keystoreProperties["storePassword"] as String
-        //     keyAlias = keystoreProperties["keyAlias"] as String
-        //     keyPassword = keystoreProperties["keyPassword"] as String
-        // }
     }
 
     buildTypes {
         getByName("debug") {
-
+            // default debug config
         }
 
         getByName("release") {
             isMinifyEnabled = false
             isShrinkResources = false
             signingConfig = signingConfigs.getByName("release")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
-
 }
 
 dependencies {
@@ -73,5 +80,5 @@ dependencies {
 }
 
 flutter {
-    source="../.."
+    source = "../.."
 }
