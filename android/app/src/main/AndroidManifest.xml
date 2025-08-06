@@ -44,7 +44,7 @@
             android:value="2" />
             
      <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="Enter Your Map Api Key"/>
+            android:value="AIzaSyAW7IuhHma-RyQqeUqzkOgENONIY4AAaf8"/>
 
 
     </application>
@@ -55,7 +55,7 @@
          In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin. -->
     <queries>
         <intent>
-            <action android:name="android.intent.action.PROCESS_TEXT"/>
+            <action android:name="AIzaSyBXffbNxCxmhztZGvc9plHKw92bjbOGgGI"/>
             <data android:mimeType="text/plain"/>
         </intent>
     </queries>
