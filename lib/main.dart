@@ -64,23 +64,3 @@ class OvoApp extends StatefulWidget {
   @override
   State<OvoApp> createState() => _OvoAppState();
 }
-
-class _OvoAppState extends State<OvoApp> {
-  @override
-  Widget build(BuildContext context) {
-    return GetBuilder<LocalizationController>(
-      builder: (localizeController) => GetMaterialApp(
-        title: Environment.appName,
-        debugShowCheckedModeBanner: false,
-        theme: lightThemeData,
-        defaultTransition: Transition.fadeIn,
-        transitionDuration: const Duration(milliseconds: 300),
-        initialRoute: RouteHelper.splashScreen,
-        getPages: RouteHelper().routes,
-        locale: localizeController.locale,
-        translations: Messages(languages: widget.languages),
-        fallbackLocale: Locale(localizeController.locale.languageCode, localizeController.locale.countryCode),
-      ),
-    );
-  }
-}
