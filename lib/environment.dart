@@ -13,7 +13,7 @@ class Environment {
   static const String defaultCountry = 'Bangladesh'; //Default Country Code
 
   //MAP CONFIG
-  static const String mapKey = "Enter Your Map Api Key"; //Enter Your Map Api Key
+  static const String mapKey = "AIzaSyBXffbNxCxmhztZGvc9plHKw92bjbOGgGI"; //Enter Your Map Api Key
   static const double mapDefaultZoom = 20;
   static const String devToken = "\$2y\$12\$mEVBW3QASB5HMBv8igls3ejh6zw2A0Xb480HWAmYq6BY9xEifyBjG"; //Do not change this token
 }
