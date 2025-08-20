@@ -1002,6 +1002,16 @@ class MyStrings {
   static const String youWantToEndTheRide = "You want to end the ride?";
   static const String noWithdrawalFound = "No withdrawal found";
   static const String somethingWentWrongWhileTakingLocation = "Something went wrong while taking location";
+  static const String mapSubTitle = "Map Finder";
+  static const String hourlySubTitle = "Hourly";
+  static const String dailySubTitle = "Daily";
+  static const String rentSubTitle = "Property Rent";
+  static const String scheduledSubTitle = "Scheduled";
+  static const String othersSubTitle = "Other's";
+  static const String preBookSubTitle = "Pre Book";
+
+
+
 
   static List<MyLanguageModel> myLanguages = [
     MyLanguageModel(languageName: 'English', countryCode: 'US', languageCode: 'en'),

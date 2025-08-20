@@ -29,6 +29,7 @@ import 'package:ovoride_driver/presentation/screens/ride_history/ride_screen.dar
 import 'package:ovoride_driver/presentation/screens/splash/splash_screen.dart';
 import 'package:ovoride_driver/presentation/screens/transaction/transactions_screen.dart';
 import 'package:ovoride_driver/presentation/screens/vehicle_verification/vehicle_verification_screen.dart';
+import 'package:ovoride_driver/presentation/screens/web_view/new_settings_webview/all_web_view_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../data/model/user/user.dart';
@@ -155,6 +156,9 @@ class RouteHelper {
   static const String newTicketScreen = '/new_ticket_screen';
 
   static const String previewImageScreen = "/preview-image-screen";
+  static const String scheduledWebPageLoader = '/scheduled_web_page_loader';
+  static const String mapWebViewScreen = '/map_web_view_screen';
+  static const String rentWebViewScreen = '/rent_web_view_screen';
 
   List<GetPage> routes = [
     GetPage(name: splashScreen, page: () => const SplashScreen()),
@@ -208,6 +212,9 @@ class RouteHelper {
     GetPage(name: faqScreen, page: () => const FaqScreen()),
     GetPage(name: previewImageScreen, page: () => PreviewImageScreen(url: Get.arguments)),
     GetPage(name: maintenanceScreen, page: () => MaintenanceScreen()),
+    GetPage(name: scheduledWebPageLoader, page: () => const ScheduledWebPage(mobileNumber: '')),
+    GetPage(name: mapWebViewScreen, page: () => const MapWebPage()),
+    GetPage(name: rentWebViewScreen, page: () => const RentWebPage()),
   ];
 
   static Future<void> checkUserStatusAndGoToNextStep(User? user, {bool isRemember = false, String accessToken = "", String tokenType = ""}) async {

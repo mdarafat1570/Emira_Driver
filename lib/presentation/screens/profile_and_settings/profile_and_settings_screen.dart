@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
+import 'package:ovoride_driver/core/utils/my_icons.dart';
 import 'package:ovoride_driver/data/controller/account/profile_controller.dart';
 import 'package:ovoride_driver/data/repo/account/profile_repo.dart';
 import 'package:ovoride_driver/data/services/api_client.dart';
@@ -10,6 +11,7 @@ import 'package:ovoride_driver/presentation/components/shimmer/user_shimmer.dart
 import 'package:ovoride_driver/presentation/components/snack_bar/show_custom_snackbar.dart';
 import 'package:ovoride_driver/presentation/components/text/header_text.dart';
 import 'package:ovoride_driver/presentation/screens/profile_and_settings/widgets/delete_account_bottom_sheet.dart';
+import 'package:ovoride_driver/presentation/screens/web_view/new_settings_webview/all_web_view_page.dart';
 
 import '../../../core/route/route.dart';
 import '../../../core/utils/dimensions.dart';
@@ -115,6 +117,50 @@ class _ProfileAndSettingsScreenState extends State<ProfileAndSettingsScreen> {
                           ),
                         ],
                       ),
+                    ),
+                  ),
+                  spaceDown(10),
+                  Container(
+                    padding: const EdgeInsets.all(Dimensions.space15),
+                    decoration: BoxDecoration(
+                      color: MyColor.getCardBgColor(),
+                      borderRadius: BorderRadius.circular(Dimensions.space12),
+                      boxShadow: MyUtils.getShadow(),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        HeaderText(
+                          text: MyStrings.appName.tr.toUpperCase(),
+                          textStyle: regularLarge.copyWith(
+                            color: MyColor.bodyText,
+                          ),
+                        ),
+                        spaceDown(Dimensions.space20),
+                        MenuRowWidget(
+                          image: MyImages.mapDriver,
+                          label: MyStrings.mapSubTitle,
+                          onPressed: () => Get.toNamed(RouteHelper.mapWebViewScreen),
+                        ),
+                        const CustomDivider(space: Dimensions.space15),
+                        MenuRowWidget(
+                          image: MyIcons.parcel,
+                          label: MyStrings.rentSubTitle.tr,
+                          onPressed: () => Get.toNamed(RouteHelper.rentWebViewScreen),
+                        ),
+                        const CustomDivider(space: Dimensions.space15),
+                       MenuRowWidget(
+                            image: MyIcons.riders,
+                            label: MyStrings.scheduledSubTitle.tr,
+                            onPressed: () {
+                              String mobile = controller.driver.mobile ?? '';
+                              Get.to(() => ScheduledWebPage(mobileNumber: mobile));
+                            },
+                            ),
+                        const CustomDivider(space: Dimensions.space15),
+
+                      ],
                     ),
                   ),
                   spaceDown(10),
