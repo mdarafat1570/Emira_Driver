@@ -42,10 +42,10 @@ android {
 
     defaultConfig {
         applicationId = "com.inferloom.emiradriver"
-        minSdk = 21
-        targetSdk = 36
-        versionCode = versionCodeProp.toInt()
-        versionName = versionNameProp
+        minSdk = 24
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
         multiDexEnabled = true
     }
 
@@ -70,6 +70,7 @@ android {
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
+
             )
         }
     }
