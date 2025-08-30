@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'package:ovoride_driver/core/utils/dimensions.dart';
-
 import 'package:ovoride_driver/core/utils/my_color.dart';
 
 const TextStyle lightOverSmall = TextStyle(fontFamily: 'Inter', color: MyColor.primaryTextColor, fontWeight: FontWeight.w300, fontSize: Dimensions.fontOverSmall);

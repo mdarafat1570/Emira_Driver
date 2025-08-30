@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/date_converter.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
@@ -6,8 +8,6 @@ import 'package:ovoride_driver/core/utils/my_strings.dart';
 import 'package:ovoride_driver/core/utils/style.dart';
 import 'package:ovoride_driver/core/utils/util.dart';
 import 'package:ovoride_driver/data/model/global/ride/ride_model.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:ovoride_driver/presentation/components/image/my_network_image_widget.dart';
 
 import '../../../../components/divider/custom_spacer.dart';

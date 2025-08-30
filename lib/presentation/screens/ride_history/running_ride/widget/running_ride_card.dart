@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/date_converter.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/core/route/route.dart';
@@ -12,8 +14,6 @@ import 'package:ovoride_driver/data/model/global/ride/ride_model.dart';
 import 'package:ovoride_driver/presentation/components/buttons/icon_button.dart';
 import 'package:ovoride_driver/presentation/components/buttons/rounded_button.dart';
 import 'package:ovoride_driver/presentation/components/divider/custom_spacer.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:ovoride_driver/presentation/components/timeline/custom_timeLine.dart';
 
 class RunningRideCard extends StatelessWidget {

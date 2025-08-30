@@ -1,17 +1,17 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
+import 'package:file_picker/file_picker.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:get/get.dart';
+import 'package:open_file/open_file.dart';
 import 'package:ovoride_driver/core/helper/shared_preference_helper.dart';
 import 'package:ovoride_driver/core/utils/my_strings.dart';
 import 'package:ovoride_driver/data/model/authorization/authorization_response_model.dart';
 import 'package:ovoride_driver/data/model/global/response_model/response_model.dart';
 import 'package:ovoride_driver/data/model/support/support_ticket_view_response_model.dart';
 import 'package:ovoride_driver/data/repo/support/support_repo.dart';
-import 'package:file_picker/file_picker.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:get/get.dart';
-import 'package:open_file/open_file.dart';
 import 'package:ovoride_driver/environment.dart';
 import 'package:path_provider/path_provider.dart';
 

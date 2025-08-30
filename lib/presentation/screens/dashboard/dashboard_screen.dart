@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:ovoride_driver/core/utils/my_color.dart';
+import 'package:ovoride_driver/core/utils/my_images.dart';
 import 'package:ovoride_driver/core/utils/my_strings.dart';
 import 'package:ovoride_driver/data/controller/dashboard/dashboard_controller.dart';
 import 'package:ovoride_driver/data/controller/pusher/global_pusher_controller.dart';
@@ -11,12 +13,10 @@ import 'package:ovoride_driver/data/repo/dashboard/dashboard_repo.dart';
 import 'package:ovoride_driver/data/repo/ride/ride_repo.dart';
 import 'package:ovoride_driver/presentation/components/annotated_region/annotated_region_widget.dart';
 import 'package:ovoride_driver/presentation/components/bottom-nav-bar/nav_bar_item_widget.dart';
-import 'package:ovoride_driver/presentation/screens/ride_history/intercity_ride_screen.dart';
-import 'package:ovoride_driver/presentation/screens/ride_history/ride_screen.dart';
-import 'package:ovoride_driver/core/utils/my_color.dart';
-import 'package:ovoride_driver/core/utils/my_images.dart';
 import 'package:ovoride_driver/presentation/components/will_pop_widget.dart';
 import 'package:ovoride_driver/presentation/screens/profile_and_settings/profile_and_settings_screen.dart';
+import 'package:ovoride_driver/presentation/screens/ride_history/intercity_ride_screen.dart';
+import 'package:ovoride_driver/presentation/screens/ride_history/ride_screen.dart';
 import 'package:ovoride_driver/presentation/screens/rides/new_rides/new_ride_screen.dart';
 
 class DashBoardScreen extends StatefulWidget {

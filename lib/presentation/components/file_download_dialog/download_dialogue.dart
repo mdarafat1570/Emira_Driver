@@ -1,13 +1,15 @@
 import 'dart:async';
 import 'dart:io';
+
+import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
 import 'package:image_gallery_saver_plus/image_gallery_saver_plus.dart';
 import 'package:ovoride_driver/environment.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:dio/dio.dart';
+
 import '../../../core/utils/my_color.dart';
 import '../../../core/utils/my_strings.dart';
 import '../../../core/utils/style.dart';

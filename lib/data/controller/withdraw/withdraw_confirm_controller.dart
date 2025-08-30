@@ -1,5 +1,8 @@
 import 'dart:io';
+
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/core/route/route.dart';
 import 'package:ovoride_driver/core/utils/my_strings.dart';
@@ -7,8 +10,7 @@ import 'package:ovoride_driver/data/model/authorization/authorization_response_m
 import 'package:ovoride_driver/data/model/global/formdata/global_kyc_form_data.dart';
 import 'package:ovoride_driver/data/model/profile/profile_response_model.dart';
 import 'package:ovoride_driver/presentation/components/snack_bar/show_custom_snackbar.dart';
-import 'package:get/get.dart';
-import 'package:file_picker/file_picker.dart';
+
 import '../../../core/helper/date_converter.dart';
 import '../../model/kyc/kyc_response_model.dart';
 import '../../repo/account/profile_repo.dart';

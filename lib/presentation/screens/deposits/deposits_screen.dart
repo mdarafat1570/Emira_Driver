@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/core/utils/style.dart';
 import 'package:ovoride_driver/presentation/components/custom_no_data_found_class.dart';
 import 'package:ovoride_driver/presentation/screens/deposits/widget/custom_deposits_card.dart';
 import 'package:ovoride_driver/presentation/screens/deposits/widget/deposit_bottom_sheet.dart';
 import 'package:ovoride_driver/presentation/screens/deposits/widget/deposit_history_top.dart';
-import 'package:get/get.dart';
 
 import '../../../core/helper/date_converter.dart';
 import '../../../core/route/route.dart';

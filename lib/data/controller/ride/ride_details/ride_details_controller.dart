@@ -13,8 +13,8 @@ import 'package:ovoride_driver/data/model/global/ride/ride_model.dart';
 import 'package:ovoride_driver/data/model/ride/ride_details_response_model.dart';
 import 'package:ovoride_driver/data/repo/ride/ride_repo.dart';
 import 'package:ovoride_driver/presentation/components/snack_bar/show_custom_snackbar.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:ovoride_driver/presentation/screens/ride_details/widgets/payment_receive_dialog.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class RideDetailsController extends GetxController {
   RideRepo repo;

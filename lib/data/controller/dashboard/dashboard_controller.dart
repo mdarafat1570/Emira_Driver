@@ -1,19 +1,19 @@
-import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/shared_preference_helper.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/core/route/route.dart';
 import 'package:ovoride_driver/core/utils/my_strings.dart';
 import 'package:ovoride_driver/data/model/authorization/authorization_response_model.dart';
+import 'package:ovoride_driver/data/model/dashboard/dashboard_response_model.dart';
 import 'package:ovoride_driver/data/model/global/response_model/response_model.dart';
 import 'package:ovoride_driver/data/model/global/ride/ride_model.dart';
-import 'package:ovoride_driver/data/model/dashboard/dashboard_response_model.dart';
 import 'package:ovoride_driver/data/model/global/user/global_driver_model.dart';
 import 'package:ovoride_driver/data/repo/dashboard/dashboard_repo.dart';
 import 'package:ovoride_driver/presentation/components/snack_bar/show_custom_snackbar.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 import '../../../core/utils/url_container.dart';
 

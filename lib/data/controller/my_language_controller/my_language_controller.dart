@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'dart:ui';
+
 import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/presentation/components/snack_bar/show_custom_snackbar.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
 import '../../../core/helper/shared_preference_helper.dart';
-
 import '../../../core/utils/messages.dart';
-
 import '../../../core/utils/url_container.dart';
 import '../../model/global/response_model/response_model.dart';
 import '../../model/language/language_model.dart';

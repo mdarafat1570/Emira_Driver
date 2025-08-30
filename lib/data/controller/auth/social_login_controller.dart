@@ -1,5 +1,7 @@
-import 'package:google_sign_in/google_sign_in.dart';
 import 'package:get/get.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:sign_in_with_apple/sign_in_with_apple.dart';
+
 import '../../../core/helper/string_format_helper.dart';
 import '../../../core/route/route.dart';
 import '../../../core/utils/my_strings.dart';
@@ -8,7 +10,6 @@ import '../../model/auth/login/login_response_model.dart';
 import '../../model/global/response_model/response_model.dart';
 import '../../model/user/user.dart';
 import '../../repo/auth/social_login_repo.dart';
-import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
 class SocialLoginController extends GetxController {
   SocialLoginRepo repo;

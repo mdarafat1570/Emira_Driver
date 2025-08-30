@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:get/get.dart';
+import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/presentation/components/annotated_region/annotated_region_widget.dart';
 
 import '../../../../core/utils/dimensions.dart';

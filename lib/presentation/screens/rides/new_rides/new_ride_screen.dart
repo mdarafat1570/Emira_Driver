@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:get/get.dart';
 import 'package:ovoride_driver/core/route/route.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
@@ -17,7 +18,7 @@ import 'package:ovoride_driver/presentation/components/text/header_text.dart';
 import 'package:ovoride_driver/presentation/screens/dashboard/widgets/driver_kyc_warning_section.dart';
 import 'package:ovoride_driver/presentation/screens/dashboard/widgets/vahicle_kyc_warning_section.dart';
 import 'package:ovoride_driver/presentation/screens/rides/new_rides/widget/offer_bid_bottom_sheet.dart';
-import 'package:flutter_animate/flutter_animate.dart';
+
 import '../../../../core/helper/string_format_helper.dart';
 import '../../../components/switch/lite_rolling_switch.dart';
 import 'widget/new_ride_card.dart';

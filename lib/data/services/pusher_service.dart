@@ -4,7 +4,6 @@ import 'package:ovoride_driver/core/utils/method.dart';
 import 'package:ovoride_driver/core/utils/url_container.dart';
 import 'package:ovoride_driver/data/model/global/response_model/response_model.dart';
 import 'package:ovoride_driver/data/services/api_client.dart';
-
 import 'package:pusher_channels_flutter/pusher_channels_flutter.dart';
 
 class PusherManager {

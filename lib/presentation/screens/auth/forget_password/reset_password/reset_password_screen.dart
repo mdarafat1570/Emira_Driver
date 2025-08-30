@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:ovoride_driver/core/route/route.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
@@ -14,7 +15,7 @@ import 'package:ovoride_driver/presentation/components/divider/custom_spacer.dar
 import 'package:ovoride_driver/presentation/components/text-form-field/custom_text_field.dart';
 import 'package:ovoride_driver/presentation/components/will_pop_widget.dart';
 import 'package:ovoride_driver/presentation/screens/auth/registration/widget/validation_widget.dart';
-import 'package:flutter_svg/svg.dart';
+
 import '../../../../../core/utils/my_icons.dart';
 
 class ResetPasswordScreen extends StatefulWidget {

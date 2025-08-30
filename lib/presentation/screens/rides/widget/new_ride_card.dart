@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
 import 'package:ovoride_driver/core/utils/my_color.dart';
@@ -8,8 +10,6 @@ import 'package:ovoride_driver/data/controller/ride/new_ride/new_ride_controller
 import 'package:ovoride_driver/data/model/global/ride/ride_model.dart';
 import 'package:ovoride_driver/presentation/components/bottom-sheet/custom_bottom_sheet.dart';
 import 'package:ovoride_driver/presentation/components/buttons/rounded_button.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:ovoride_driver/presentation/components/dotted_border/dotted_border.dart';
 import 'package:ovoride_driver/presentation/screens/ride_history/new_ride_section/widget/bid_amount_bottom_sheet.dart';
 

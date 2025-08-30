@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:get/get.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
 import 'package:ovoride_driver/core/utils/my_color.dart';
 import 'package:ovoride_driver/core/utils/my_strings.dart';
@@ -8,7 +9,6 @@ import 'package:ovoride_driver/data/controller/review/review_controller.dart';
 import 'package:ovoride_driver/data/repo/review/review_repo.dart';
 import 'package:ovoride_driver/presentation/components/divider/custom_spacer.dart';
 import 'package:ovoride_driver/presentation/components/image/my_network_image_widget.dart';
-import 'package:get/get.dart';
 import 'package:ovoride_driver/presentation/screens/review/widget/review_list.dart';
 
 import '../../../core/helper/string_format_helper.dart';

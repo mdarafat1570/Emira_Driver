@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ovoride_driver/core/utils/style.dart';
 import 'package:get/get.dart';
+import 'package:ovoride_driver/core/utils/style.dart';
 
 import '../../../core/utils/my_color.dart';
 import '../../screens/withdraw/widget/status_widget.dart';
