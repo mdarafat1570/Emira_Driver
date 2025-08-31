@@ -1,7 +1,7 @@
+import 'package:get/get.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/data/services/api_client.dart';
-import 'package:get/get.dart';
 
 class AudioUtils {
   static Future<void> playAudio(String path) async {

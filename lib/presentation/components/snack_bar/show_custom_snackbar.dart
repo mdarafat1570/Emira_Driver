@@ -1,12 +1,12 @@
+import 'package:another_flushbar/flushbar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
 import 'package:ovoride_driver/core/utils/my_color.dart';
 import 'package:ovoride_driver/core/utils/my_strings.dart';
 import 'package:ovoride_driver/core/utils/style.dart';
-import 'package:another_flushbar/flushbar.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 
 class CustomSnackBar {
   static void error({required List<String> errorList, int duration = 5, SnackPosition position = SnackPosition.TOP}) {

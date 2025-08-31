@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:ovoride_driver/core/helper/shared_preference_helper.dart';
 import 'package:ovoride_driver/core/utils/my_strings.dart';
 import 'package:ovoride_driver/data/model/language/language_model.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class LocalizationController extends GetxController {
   final SharedPreferences sharedPreferences;

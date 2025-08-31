@@ -1,4 +1,7 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/date_converter.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
 import 'package:ovoride_driver/core/utils/my_color.dart';
@@ -8,9 +11,7 @@ import 'package:ovoride_driver/core/utils/my_strings.dart';
 import 'package:ovoride_driver/core/utils/style.dart';
 import 'package:ovoride_driver/core/utils/util.dart';
 import 'package:ovoride_driver/data/controller/support/ticket_details_controller.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:get/get.dart';
+
 import '../../../../../core/utils/url_container.dart';
 import '../../../../../data/model/support/support_ticket_view_response_model.dart';
 import '../../../../components/image/my_network_image_widget.dart';

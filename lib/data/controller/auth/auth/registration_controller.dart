@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ovoride_driver/core/helper/string_format_helper.dart';
-import 'package:ovoride_driver/data/model/zone/zone_list_response_model.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:ovoride_driver/core/helper/shared_preference_helper.dart';
+import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/core/route/route.dart';
 import 'package:ovoride_driver/core/utils/my_strings.dart';
 import 'package:ovoride_driver/data/model/auth/sign_up_model/registration_response_model.dart';
@@ -11,9 +9,11 @@ import 'package:ovoride_driver/data/model/auth/sign_up_model/sign_up_model.dart'
 import 'package:ovoride_driver/data/model/general_setting/general_setting_response_model.dart';
 import 'package:ovoride_driver/data/model/global/response_model/response_model.dart';
 import 'package:ovoride_driver/data/model/model/error_model.dart';
+import 'package:ovoride_driver/data/model/zone/zone_list_response_model.dart';
 import 'package:ovoride_driver/data/repo/auth/general_setting_repo.dart';
 import 'package:ovoride_driver/data/repo/auth/signup_repo.dart';
 import 'package:ovoride_driver/presentation/components/snack_bar/show_custom_snackbar.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class RegistrationController extends GetxController {
   RegistrationRepo registrationRepo;

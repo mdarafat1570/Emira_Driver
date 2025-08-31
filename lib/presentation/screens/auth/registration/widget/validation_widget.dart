@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
 import 'package:ovoride_driver/data/model/model/error_model.dart';
+
 import 'validation_chip_widget.dart';
 
 class ValidationWidget extends StatelessWidget {

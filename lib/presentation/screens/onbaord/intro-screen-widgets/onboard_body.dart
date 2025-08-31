@@ -1,9 +1,10 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:get/get.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
 import 'package:ovoride_driver/core/utils/style.dart';
 import 'package:ovoride_driver/presentation/components/image/my_local_image_widget.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
+
 import '../../../components/divider/custom_spacer.dart';
 
 class OnboardingPage extends StatelessWidget {

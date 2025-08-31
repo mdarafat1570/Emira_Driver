@@ -1,11 +1,11 @@
 import 'package:get/get.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:ovoride_driver/data/controller/common/theme_controller.dart';
 import 'package:ovoride_driver/data/controller/localization/localization_controller.dart';
 import 'package:ovoride_driver/data/controller/splash/splash_controller.dart';
 import 'package:ovoride_driver/data/repo/auth/general_setting_repo.dart';
 import 'package:ovoride_driver/data/repo/splash/splash_repo.dart';
 import 'package:ovoride_driver/data/services/api_client.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 Future<Map<String, Map<String, String>>> init() async {
   final sharedPreferences = await SharedPreferences.getInstance();

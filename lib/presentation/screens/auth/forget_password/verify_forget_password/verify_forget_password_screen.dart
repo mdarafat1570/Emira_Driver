@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:ovoride_driver/presentation/components/divider/custom_spacer.dart';
-import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
 import 'package:ovoride_driver/core/utils/my_color.dart';
+import 'package:ovoride_driver/core/utils/my_icons.dart';
 import 'package:ovoride_driver/core/utils/my_images.dart';
 import 'package:ovoride_driver/core/utils/my_strings.dart';
 import 'package:ovoride_driver/core/utils/style.dart';
 import 'package:ovoride_driver/data/controller/auth/forget_password/verify_password_controller.dart';
 import 'package:ovoride_driver/data/repo/auth/login_repo.dart';
 import 'package:ovoride_driver/presentation/components/buttons/rounded_button.dart';
+import 'package:ovoride_driver/presentation/components/divider/custom_spacer.dart';
 import 'package:ovoride_driver/presentation/components/text/default_text.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:ovoride_driver/core/utils/my_icons.dart';
+import 'package:pin_code_fields/pin_code_fields.dart';
 
 class VerifyForgetPassScreen extends StatefulWidget {
   const VerifyForgetPassScreen({super.key});

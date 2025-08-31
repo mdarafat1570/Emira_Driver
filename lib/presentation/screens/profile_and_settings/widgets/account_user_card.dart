@@ -1,8 +1,8 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/core/utils/my_strings.dart';
 import 'package:ovoride_driver/core/utils/style.dart';
-import 'package:flutter/material.dart';
 
 import '../../../../core/route/route.dart';
 import '../../../../core/utils/dimensions.dart';

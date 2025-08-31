@@ -1,18 +1,20 @@
 import 'dart:io';
-import 'package:ovoride_driver/core/helper/string_format_helper.dart';
-import 'package:ovoride_driver/core/theme/light/light.dart';
-import 'package:ovoride_driver/core/utils/audio_utils.dart';
-import 'package:ovoride_driver/core/utils/util.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ovoride_driver/core/route/route.dart';
-import 'package:ovoride_driver/core/utils/messages.dart';
-import 'package:ovoride_driver/data/controller/localization/localization_controller.dart';
 import 'package:ovoride_driver/core/di_service/di_services.dart' as di_service;
+import 'package:ovoride_driver/core/helper/string_format_helper.dart';
+import 'package:ovoride_driver/core/route/route.dart';
+import 'package:ovoride_driver/core/theme/light/light.dart';
+import 'package:ovoride_driver/core/utils/audio_utils.dart';
+import 'package:ovoride_driver/core/utils/messages.dart';
+import 'package:ovoride_driver/core/utils/util.dart';
+import 'package:ovoride_driver/data/controller/localization/localization_controller.dart';
 import 'package:ovoride_driver/data/services/push_notification_service.dart';
 import 'package:ovoride_driver/environment.dart';
-import 'data/services/api_client.dart';
 import 'package:timezone/data/latest.dart' as tz;
+
+import 'data/services/api_client.dart';
 
 //APP ENTRY POINT
 Future<void> main() async {

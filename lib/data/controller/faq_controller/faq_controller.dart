@@ -1,7 +1,7 @@
+import 'package:get/get.dart';
 import 'package:ovoride_driver/data/model/global/response_model/response_model.dart';
 import 'package:ovoride_driver/data/repo/faq_repo/faq_repo.dart';
 import 'package:ovoride_driver/presentation/components/snack_bar/show_custom_snackbar.dart';
-import 'package:get/get.dart';
 
 import '../../model/faq_response_model.dart';
 

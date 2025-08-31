@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/date_converter.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/core/route/route.dart';
@@ -13,10 +15,7 @@ import 'package:ovoride_driver/presentation/components/bottom-sheet/custom_botto
 import 'package:ovoride_driver/presentation/components/buttons/icon_button.dart';
 import 'package:ovoride_driver/presentation/components/buttons/rounded_button.dart';
 import 'package:ovoride_driver/presentation/components/divider/custom_spacer.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:ovoride_driver/presentation/components/timeline/custom_timeLine.dart';
-
 import 'package:ovoride_driver/presentation/screens/ride_history/active_ride/widget/pick_up_bottom_sheet.dart';
 
 class ActiveRidesCard extends StatelessWidget {

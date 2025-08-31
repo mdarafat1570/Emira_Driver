@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ovoride_driver/presentation/screens/ticket/all_ticket_screen/widget/priority_badge.dart';
 import 'package:ovoride_driver/presentation/screens/ticket/all_ticket_screen/widget/status_badge.dart';
+
 import '../../../../../core/utils/dimensions.dart';
 import '../../../../../core/utils/my_color.dart';
 import '../../../../../core/utils/my_strings.dart';
