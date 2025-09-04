@@ -141,7 +141,6 @@ class DashBoardController extends GetxController {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                // Icon
                 Container(
                   padding: const EdgeInsets.all(8),
                   decoration: const BoxDecoration(
@@ -239,7 +238,7 @@ class DashBoardController extends GetxController {
     );
   }
 
-  /// Show settings dialog for permanently denied permission (don't open settings)
+  /// Show settings dialog
   Future<void> _showSettingsDialog(BuildContext context) async {
     return await showDialog<void>(
       context: context,
