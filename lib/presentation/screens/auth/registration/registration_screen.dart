@@ -102,7 +102,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                                       style: regularDefault.copyWith(color: MyColor.getBodyTextColor(), fontSize: 16),
                                     ),
                                     spaceDown(Dimensions.space20),
-                                    SocialAuthSection(),
+                                    // SocialAuthSection(),
                                     spaceDown(Dimensions.space15),
                                     const RegistrationForm()
                                   ],

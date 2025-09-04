@@ -28,7 +28,7 @@ val versionNameProp = localProps.getProperty("flutter.versionName") ?: "1.0.0"
 android {
     namespace = "com.inferloom.emiradriver"
     compileSdk = 36
-    ndkVersion = "27.0.12077973"
+    ndkVersion = "29.0.13846066"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11

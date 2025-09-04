@@ -116,7 +116,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             style: lightDefault.copyWith(color: MyColor.bodyText, fontSize: Dimensions.fontLarge),
                           ),
                           spaceDown(Dimensions.space20),
-                          SocialAuthSection(),
+                          // SocialAuthSection(),
                           Form(
                             key: formKey,
                             child: Column(
