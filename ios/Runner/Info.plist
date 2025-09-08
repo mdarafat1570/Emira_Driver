@@ -26,6 +26,14 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location is needed to find nearby rides, navigate passengers, and ensure accurate trip tracking.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photo library to let you upload profile and vehicle photos.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need permission to save receipts or trip-related images to your photo library.</string>
+    <key>NSCameraUsageDescription</key>
+	<string>We use the camera for driver identity verification and to upload vehicle or document photos.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
