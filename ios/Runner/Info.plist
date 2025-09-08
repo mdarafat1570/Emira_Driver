@@ -32,8 +32,6 @@
 	<string>We need permission to save receipts or trip-related images to your photo library.</string>
     <key>NSCameraUsageDescription</key>
 	<string>We use the camera for driver identity verification and to upload vehicle or document photos.</string>
-	<key>NSUserTrackingUsageDescription</key>
-    <string>Your permission is needed to deliver a safer and more personalized experience, including relevant offers and fraud prevention.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 	<key>NSAllowsArbitraryLoads</key><true/>
