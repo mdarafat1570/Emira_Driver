@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ovoride_driver/presentation/components/divider/custom_divider.dart';
+
 import '../../../../core/utils/dimensions.dart';
 import '../../../../core/utils/my_color.dart';
 import '../../../../core/utils/my_strings.dart';

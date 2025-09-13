@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
 import 'package:ovoride_driver/core/utils/my_color.dart';
 import 'package:ovoride_driver/core/utils/my_strings.dart';
 import 'package:ovoride_driver/core/utils/style.dart';
-import 'package:get/get.dart';
 
 import '../../../../../core/utils/ticket_helper.dart';
 import '../../../../../data/controller/support/ticket_details_controller.dart';

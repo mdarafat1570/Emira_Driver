@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/core/route/route.dart';
@@ -14,11 +13,11 @@ import 'package:ovoride_driver/presentation/components/buttons/rounded_button.da
 import 'package:ovoride_driver/presentation/components/text-form-field/custom_text_field.dart';
 import 'package:ovoride_driver/presentation/components/text/default_text.dart';
 import 'package:ovoride_driver/presentation/components/will_pop_widget.dart';
+
 import '../../../../core/utils/my_icons.dart';
 import '../../../../core/utils/my_images.dart';
 import '../../../components/divider/custom_spacer.dart';
 import '../../../components/image/custom_svg_picture.dart';
-import '../social_auth/social_auth_section.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

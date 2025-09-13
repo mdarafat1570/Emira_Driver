@@ -1,18 +1,20 @@
 import 'dart:convert';
 import 'dart:io';
+
 import 'package:dio/dio.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:get/get.dart' as getX;
 import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:path_provider/path_provider.dart';
+
 import '../../core/helper/shared_preference_helper.dart';
 import '../../core/utils/method.dart';
 import '../../core/utils/url_container.dart';
 import '../../firebase_options.dart';
 import 'api_client.dart';
-import 'package:get/get.dart' as getX;
 
 Future<void> _messageHandler(RemoteMessage message) async {
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);

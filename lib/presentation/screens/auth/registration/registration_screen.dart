@@ -18,7 +18,6 @@ import 'package:ovoride_driver/presentation/screens/auth/registration/widget/reg
 
 import '../../../../core/utils/my_icons.dart';
 import '../../../components/divider/custom_spacer.dart';
-import '../social_auth/social_auth_section.dart';
 
 class RegistrationScreen extends StatefulWidget {
   const RegistrationScreen({super.key});

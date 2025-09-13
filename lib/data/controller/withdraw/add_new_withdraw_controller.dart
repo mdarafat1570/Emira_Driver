@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:get/get.dart';
+import 'package:ovoride_driver/core/helper/string_format_helper.dart';
 import 'package:ovoride_driver/data/model/kyc/kyc_response_model.dart';
 
 import '../../../core/route/route.dart';

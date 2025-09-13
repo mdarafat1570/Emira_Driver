@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ovoride_driver/core/utils/app_status.dart';
 import 'package:ovoride_driver/core/utils/dimensions.dart';
@@ -11,9 +12,8 @@ import 'package:ovoride_driver/presentation/components/bottom-sheet/custom_botto
 import 'package:ovoride_driver/presentation/components/no_data.dart';
 import 'package:ovoride_driver/presentation/components/shimmer/ride_shimmer.dart';
 import 'package:ovoride_driver/presentation/screens/ride_history/accepted_ride_section/accepted_ride_card.dart';
-import 'package:ovoride_driver/presentation/screens/ride_history/widget/cancel_bottom_sheet.dart';
 import 'package:ovoride_driver/presentation/screens/ride_history/widget/all_ride_card.dart';
-import 'package:flutter/material.dart';
+import 'package:ovoride_driver/presentation/screens/ride_history/widget/cancel_bottom_sheet.dart';
 import 'package:ovoride_driver/presentation/screens/ride_history/widget/review_bottom_sheet_widget.dart';
 
 class AllRideSection extends StatefulWidget {

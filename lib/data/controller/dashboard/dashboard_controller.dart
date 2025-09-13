@@ -15,7 +15,6 @@ import 'package:ovoride_driver/data/model/global/ride/ride_model.dart';
 import 'package:ovoride_driver/data/model/global/user/global_driver_model.dart';
 import 'package:ovoride_driver/data/repo/dashboard/dashboard_repo.dart';
 import 'package:ovoride_driver/presentation/components/snack_bar/show_custom_snackbar.dart';
-import 'package:permission_handler/permission_handler.dart';
 
 import '../../../core/utils/url_container.dart';
 
@@ -220,7 +219,7 @@ class DashBoardController extends GetxController {
                           ),
                         ),
                         child: Text(
-                          "Enable Location",
+                          "Continue",
                           style: boldSmall.copyWith(
                             color: Colors.white,
                             fontSize: 14,
