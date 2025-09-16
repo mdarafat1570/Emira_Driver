@@ -182,28 +182,28 @@ class DashBoardController extends GetxController {
 
                 Row(
                   children: [
-                    Expanded(
-                      child: OutlinedButton(
-                        onPressed: () {
-                          Navigator.of(context).pop(false);
-                        },
-                        style: OutlinedButton.styleFrom(
-                          padding: const EdgeInsets.symmetric(vertical: 12),
-                          side: BorderSide(color: Colors.grey[400]!),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(8),
-                          ),
-                        ),
-                        child: Text(
-                          "Not Now",
-                          style: boldSmall.copyWith(
-                            color: Colors.grey[600],
-                            fontSize: 14,
-                          ),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
+                    // Expanded(
+                    //   child: OutlinedButton(
+                    //     onPressed: () {
+                    //       Navigator.of(context).pop(false);
+                    //     },
+                    //     style: OutlinedButton.styleFrom(
+                    //       padding: const EdgeInsets.symmetric(vertical: 12),
+                    //       side: BorderSide(color: Colors.grey[400]!),
+                    //       shape: RoundedRectangleBorder(
+                    //         borderRadius: BorderRadius.circular(8),
+                    //       ),
+                    //     ),
+                    //     child: Text(
+                    //       "Not Now",
+                    //       style: boldSmall.copyWith(
+                    //         color: Colors.grey[600],
+                    //         fontSize: 14,
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
+                    // const SizedBox(width: 12),
                     // Allow Button
                     Expanded(
                       flex: 2,
